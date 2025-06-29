@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taj Mumbai Rooms</title>
+    <style>
+        .roombox {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: url('img3.avif') no-repeat center center / cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .rooms-section {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .room-card {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 25px;
+        width: 300px;
+        text-align: center;
+        transition: transform 0.3s;
+        border-radius: 15px;
+        }
+
+        .room-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        .room-card img {
+        width: 100%;
+        
+        }
+
+        .room-card h3 {
+        font-size: 16px;
+        margin: 10px ;
+        }
+
+        .room-card p {
+        font-size: 15px;
+        
+        } .room-card button {
+           
+        background-color: #cdded9;
+        border: 1px solid #333;
+        padding: 10px 20px;
+        margin: 10px 0;
+        cursor: pointer;
+        }
+
+        .room-card small {
+            align-items: center;
+        font-size: 15px;
+        
+        }
+
+       
+        
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav class="upperbar">
+      <div class="logo">Rooms & Suites</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="overview.html">Overview</a></li>
+        <li><a href="room.html">Rooms</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login / Join</a></li>
+        <li><button class="book-btn"><a href="room.html"> BOOK A STAY </a></button></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  <div class="roombox">
+    <section class="rooms-section">
+      <div class="room-card">
+        <img src="./images.jpeg" alt="Deluxe King Room" />
+        <h3>DELUXE KING ROOM WITH TERRACE AND VIEW</h3>
+        <p> Sleeps 2</p>
+        <a href="#">MORE DETAILS</a>
+        <button>CHECK AVAILABILITY</button>
+        <small>Price <strong>$100.0</strong> </small>
+      </div>
+      <div class="room-card">
+        <img src="./images.jpeg" alt="Deluxe King Room" />
+        <h3>DELUXE KING ROOM WITH TERRACE</h3>
+        <p> Sleeps 2</p>
+        <a href="#">MORE DETAILS</a>
+        <button>CHECK AVAILABILITY</button>
+        <small>Price <strong>$100.0</strong> </small>
+      </div>
+    </section>
+    </div>
+
+
+
+</body>
+</html>
