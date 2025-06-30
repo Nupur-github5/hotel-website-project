@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | Taj Hotel</title>
+  <style>
+    
+        body {
+        
+        background-color: #1a3e81;
+        height: 100vh;        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        
+        .login-container {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        width: 300px;
+        text-align: center;
+        }
+        .login-form {
+        display: flex;
+        flex-direction: column;
+        }
+
+        .login-form label {
+        text-align: left;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #555;
+        }
+
+        .login-form input {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        }
+
+        .login-form button {
+        background-color: #0066cc;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background 0.3s;
+        }
+
+        .login-form button:hover {
+        background-color: #004c99;
+        }
+
+        .note {
+        font-size: 14px;
+        margin-top: 10px;
+        }
+
+        .note a {
+        color: #0066cc;
+        text-decoration: none;
+        }
+
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Welcome Back to Taj Hotel Website</h2>
+    <form class="login-form">
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="Enter your username" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter your password" required />
+
+      <button type="submit">Login</button>
+      <p class="note">Don't have an account? <a href="#">Sign up</a></p>
+    </form>
+  </div>
+</body>
+</html>
